@@ -1,0 +1,160 @@
+body{
+    font-family: "Inter", serif;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    height: 42px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 58px;
+    background-color: #FFE4D9;
+    padding-bottom: 61px;
+}
+.left{
+    display: flex;
+}
+.name-colog{
+    width: 215px;
+    margin-left: 15px;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-info{
+    background-color: #FFE4D9;
+    margin-top: 69px;
+    display: flex;
+    justify-content: space-around;
+    height: 248px;
+    align-items: center;
+}
+.name-footer{
+    width: 374px;
+    font-size: 24px;
+    color: #646464;
+}
+.name-teacher{
+    font-size: 20px;
+    color:#646464;
+    width: 271px;
+    text-align: right;
+}
+.name-monument{
+    margin-top: 85px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.img-monument{
+    margin-top: 74px;
+}
+.text-monument{
+    width: 1186px;
+    text-align: center;
+    margin-top: 173px;
+    font-size: 24px;
+    font-weight: normal;
+}
+@media (max-width :1440px)
+{
+    .text-monument{
+        width: 1100px;
+        text-align: center;
+        margin-top: 103px;
+        font-size: 24px;
+        font-weight: normal;
+    }
+}
+@media (max-width :1090px)
+{
+    .text-monument{
+        width: 700px;
+        text-align: center;
+        margin-top: 103px;
+        font-size: 24px;
+        font-weight: normal;
+    }
+    .img-monument{
+        width: 700px;
+    }
+}
+@media (max-width :700px)
+{
+    .header{
+        text-align: center;
+    }
+    .header{
+        background-color: #FFE4D9;
+        padding-bottom: 61px;
+        display: block;
+        text-align: center;
+    }
+    .left{
+        display: block;
+    }
+
+    .name-colog{
+        text-align: center;
+        margin: auto;
+    }
+    .img-monument{
+        width: 400px;
+        margin: auto;
+    }
+    .text-monument{
+        width: 400px;
+        text-align: center;
+        margin-top: 173px;
+        font-size: 24px;
+        font-weight: normal;
+        margin-top: 20px;
+    }
+    .footer-info{
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+        height: 250px;
+    }
+    .name-footer{
+        text-align: center;
+        width: 100%;
+    }
+    .logo-MIDiS, .name-teacher{
+        text-align: center;
+        width: 100%;
+    }
+}
+@media (max-width :410px){
+    .name-monument{
+        font-size: 24px;
+    }
+    .text-monument{
+        width: 250px;
+        text-align: center;
+        margin-top: 173px;
+        font-size: 14px;
+        font-weight: normal;
+        margin-top: 20px;
+    }
+    .img-monument{
+        width: 250px;
+        margin: auto;
+    }
+    .MIDiS{
+        width: 250px;
+    }
+    .footer-info{
+        margin-top: 30px;
+        height: 150px;
+    }
+    .name-footer, .name-teacher{
+        font-size: 14px;
+    }
+}
